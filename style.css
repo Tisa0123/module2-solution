@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+
+  font-family: Damion,sans-serif;serif;font-size: 2rem;font-weight: 400;padding: 1rem;
+
+}
+h1{
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+}
+.secDiv {
+  height: 50px;
+  width: 80px;
+}
+.secDiv p{
+  height: 50px;
+  width: 80px;
+  border: 2px solid black;
+  position: relative;
+  left: 50%;
+  padding: 1px;
+  background-color: pink;
+  text-align: center;
+
+}
+#one{
+  margin-left: 9%;
+}
+section > div.pink > p {
+    background-color:#e35e5e;
+}
+section > div.yellow > p {
+    background-color:#f0bf27;
+}
+
+section{
+  height: 300px;
+  width: 27%;
+  margin:10px;
+  border: 3px solid black;
+  float: left;
+  margin-right: 1px;
+  overflow: hidden;
+  background-color:#636466;
+  min-width: 256px;
+}
+section p{
+    padding: 5px;
+    min-width: 50%;
+}
+
+section > p{
+  font-size: 1.5rem;padding: 0.2rem;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #main{
+    width: 91%;
+    height:800px;
+    margin: auto;
+  }
+  section{
+    margin: 10px ;
+  }
+  #one{
+    width: 40%;
+    margin-left: 55px;
+  }
+  #two{
+    width: 40%;
+    clear: right;
+  }
+  #three{
+    width: 82%;
+    margin-left: 55px;
+    clear: both;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width:767px) {
+#main{
+  width: 91%;
+  height:800px;
+  margin: auto;
+}
+section{
+  margin-left: 0px;
+  margin: 10px 30px ;
+}
+#one{
+  margin: 10px 30px ;
+  width: 90%;
+}
+#two{
+  width: 90%;
+}
+#three{
+  width: 90%;
+}
+
+}
+
+}
